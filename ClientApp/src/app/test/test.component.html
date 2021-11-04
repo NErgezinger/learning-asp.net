@@ -1,0 +1,5 @@
+<h3>Tomorrow's forecast: {{weatherData[index].summary}}</h3>
+<h4>Celcius: {{weatherData[index].temperatureC}}</h4>
+<h4>Fahrenheit: {{weatherData[index].temperatureF}}</h4>
+<button (click)="changeDay(-1)">Previous</button>
+<button (click)="changeDay(1)">Next</button>
